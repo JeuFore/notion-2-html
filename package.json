@@ -1,0 +1,37 @@
+{
+  "name": "@jeufore/notion-2-html",
+  "author": "JeuFore",
+  "version": "0.0.1",
+  "description": "Convert Notion page to HTML",
+  "homepage": "https://github.com/JeuFore/notion-2-html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeuFore/notion-2-html.git"
+  },
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf ./dist && npx -c node_modules/typescript/bin/tsc",
+    "lint": "eslint . --ext .ts"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.1.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "@types/node": "^8.0.27",
+    "@typescript-eslint/eslint-plugin": "^5.33.0",
+    "@typescript-eslint/parser": "^5.33.0",
+    "eslint": "^8.22.0",
+    "typescript": "^4.7.4"
+  },
+  "bugs": {
+    "url": "https://github.com/JeuFore/notion-2-html/issues"
+  },
+  "keywords": [
+    "notion",
+    "html"
+  ]
+}

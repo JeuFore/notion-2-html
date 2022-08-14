@@ -1,0 +1,21 @@
+export default {
+    default: '',
+    gray: 'color: rgb(120, 119, 116); fill: rgb(120, 119, 116);',
+    brown: 'color:rgba(159, 107, 83, 1);fill:rgba(159, 107, 83, 1);',
+    orange: 'color:rgba(217, 115, 13, 1);fill:rgba(217, 115, 13, 1);',
+    yellow: 'color:rgba(203, 145, 47, 1);fill:rgba(203, 145, 47, 1);',
+    green: 'color:rgba(68, 131, 97, 1);fill:rgba(68, 131, 97, 1);',
+    blue: 'color:rgba(51, 126, 169, 1);fill:rgba(51, 126, 169, 1);',
+    purple: 'color:rgba(144, 101, 176, 1);fill:rgba(144, 101, 176, 1);',
+    pink: 'color:rgba(193, 76, 138, 1);fill:rgba(193, 76, 138, 1);',
+    red: 'color:rgba(212, 76, 71, 1);fill:rgba(212, 76, 71, 1);',
+    gray_background: 'background:rgba(241, 241, 239, 1);',
+    brown_background: 'background:rgba(244, 238, 238, 1);',
+    orange_background: 'background:rgba(251, 236, 221, 1);',
+    yellow_background: 'background:rgba(251, 243, 219, 1);',
+    green_background: 'background:rgba(237, 243, 236, 1);',
+    blue_background: 'background:rgba(231, 243, 248, 1);',
+    purple_background: 'background:rgba(244, 240, 247, 0.8);',
+    pink_background: 'background:rgba(249, 238, 243, 0.8);',
+    red_background: 'background:rgba(253, 235, 236, 1);'
+}
