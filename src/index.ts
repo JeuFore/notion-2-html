@@ -29,7 +29,7 @@ import {
 
 import HtmlPage from './html-page'
 
-import { SupportLanguages } from 'languages'
+import { SupportLanguages } from './languages'
 
 type ConvertOptions = {
     withoutTitle?: boolean,

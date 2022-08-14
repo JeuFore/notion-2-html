@@ -1,4 +1,4 @@
-import { SupportLanguages } from 'languages'
+import { SupportLanguages } from './languages'
 
 export default class HtmlPage {
     htmlString: string;
